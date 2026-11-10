@@ -26,3 +26,30 @@ age1 = 19
 
 print(f"my age is {age1} , i will be {age1 +3 } years old three years")
 
+print(f"{name1.upper()} , was born in {born_year}")
+print()
+print()
+
+#LESSON 7 EXERCISE
+
+
+"""
+Asks the user for their name using input()
+Asks the user for their birth year using input() — convert to integer!
+Asks the user for their favourite programming language using input()
+Then prints this exact sentence using an f-string:
+"""
+
+
+#LESSON 7 SOLUTION
+print()
+user_name = input("What is your name  ?  ")
+u_birth_year = int(input("What is your birth year ?  "))
+fav_language = input("What is your favorite programming language ?   ")
+current_year = 2026 
+user_age = u_birth_year - current_year
+print()
+print(f"Helooo , my name is {user_name.upper()} , i am {user_age} years old and my favourite programming language is {fav_language.upper()} . ")
+print()
+
+
